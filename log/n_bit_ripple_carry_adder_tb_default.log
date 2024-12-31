@@ -1,0 +1,48 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tahmeed/Desktop/Wonderland/n_bit_ripple_carry_adder-core/test/n_bit_ripple_carry_adder_tb/n_bit_ripple_carry_adder_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module n_bit_ripple_carry_adder_tb
+WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'ENABLE_DUMPFILE' [C:/Users/tahmeed/Desktop/Wonderland/n_bit_ripple_carry_adder-core/test/n_bit_ripple_carry_adder_tb/n_bit_ripple_carry_adder_tb.sv:12]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tahmeed/Desktop/Wonderland/n_bit_ripple_carry_adder-core/source/full_adder.sv" into library work
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tahmeed/Desktop/Wonderland/n_bit_ripple_carry_adder-core/source/half_adder.sv" into library work
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/tahmeed/Desktop/Wonderland/n_bit_ripple_carry_adder-core/source/n_bit_ripple_carry_adder.sv" into library work
+INFO: [VRFC 10-311] analyzing module n_bit_ripple_carry_adder
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe n_bit_ripple_carry_adder_tb -s n_bit_ripple_carry_adder_tb --nolog 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.half_adder
+Compiling module work.full_adder
+Compiling module work.n_bit_ripple_carry_adder(BIT_NUM...
+Compiling module work.n_bit_ripple_carry_adder_tb
+Built simulation snapshot n_bit_ripple_carry_adder_tb
+
+****** xsim v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Dec 31 16:17:00 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/n_bit_ripple_carry_adder_tb/xsim_script.tcl
+# xsim {n_bit_ripple_carry_adder_tb} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[7;38m####################### TEST STARTED #######################[0m
+total runs: 100000
+[1;32m[PASS][0m SUCCESSFUL ADDITION [1;33m[n_bit_ripple_carry_adder_tb default
+][0m
+[1;32m[PASS][0m SUCCESSFUL SUBTRACTION [1;33m[n_bit_ripple_carry_adder_tb default
+][0m
+[7;38m######################## TEST ENDED ########################[0m
+$finish called at time : 1 ms : File "C:/Users/tahmeed/Desktop/Wonderland/n_bit_ripple_carry_adder-core/test/n_bit_ripple_carry_adder_tb/n_bit_ripple_carry_adder_tb.sv" Line 145
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Dec 31 16:17:07 2024...
