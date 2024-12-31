@@ -40,9 +40,13 @@ CONFIG ?= default
 
 build:
 	@mkdir -p build
+	@echo "*" > build/.gitignore
+	@git add build > /dev/null 2>&1
 
 log:
 	@mkdir -p log
+	@echo "*" > log/.gitignore
+	@git add log > /dev/null 2>&1
 
 config:
 	@cd build; echo "$(TOP) $(CONFIG)" > config
